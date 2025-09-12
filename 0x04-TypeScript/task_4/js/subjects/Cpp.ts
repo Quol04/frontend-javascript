@@ -2,12 +2,12 @@
 /// <reference path="./Subject.ts" />
 
 namespace Subjects {
-  // declaration merging: add optional property to Teacher
+  // declaration merging: add optional property
   export interface Teacher {
     experienceTeachingC?: number;
   }
 
-  export class Cpp extends Subject {
+  export class Cpp extends SubjectClass {
     getRequirements(): string {
       return "Here is the list of requirements for Cpp";
     }

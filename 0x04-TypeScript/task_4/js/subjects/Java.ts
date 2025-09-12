@@ -2,12 +2,12 @@
 /// <reference path="./Subject.ts" />
 
 namespace Subjects {
-  // declaration merging: add optional property to Teacher
+  // declaration merging: add optional property
   export interface Teacher {
     experienceTeachingJava?: number;
   }
 
-  export class Java extends Subject {
+  export class Java extends SubjectClass {
     getRequirements(): string {
       return "Here is the list of requirements for Java";
     }

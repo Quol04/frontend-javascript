@@ -16,3 +16,10 @@ namespace Subjects {
     }
   }
 }
+
+
+// import Teacher from "./Teacher";
+
+// export default interface Subject {
+//   setTeacher(teacher: Teacher): void;
+// }

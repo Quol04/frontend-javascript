@@ -3,7 +3,7 @@
 /// <reference path="./subjects/React.ts" />
 
 // Create constants for each class
-const cpp = new Subjects.Cpp();
+const cpp = new Cpp();
 const java = new Subjects.Java();
 const react = new Subjects.React();
 
@@ -31,3 +31,12 @@ console.log("React");
 react.setTeacher(cTeacher);
 console.log(react.getRequirements());
 console.log(react.getAvailableTeacher());
+
+
+/// test 
+// const cpp = new Cpp()
+// const java = new Java()
+// const react = new React()
+// cTeacher: Teacher = { firstName: "John", lastName: "Doe", experienceTeachingC: 10 }
+
+// Cpp

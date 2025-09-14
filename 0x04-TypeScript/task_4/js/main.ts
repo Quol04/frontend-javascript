@@ -3,7 +3,7 @@
 /// <reference path="./subjects/React.ts" />
 
 // Create constants for each class
-const cpp = new Cpp();
+const cpp = new Subjects.Cpp();
 const java = new Subjects.Java();
 const react = new Subjects.React();
 

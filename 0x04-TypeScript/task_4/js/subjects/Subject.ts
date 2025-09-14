@@ -16,7 +16,9 @@ namespace Subjects {
     }
   }
 }
-
+// setTeacher(teacher:Teacher):void {
+//     this.teacher = teacher;
+//   }
 
 // import Teacher from "./Teacher";
 
